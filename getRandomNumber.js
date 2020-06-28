@@ -1,8 +1,10 @@
-const getRandomNumber = (min, max) => {
-    return Math.floor(Math.random() * (max - min) + min);
-};
+const getRandomLetter = () => {
+    const randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+       
+    return randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+    
+}
 
-console.log(getRandomNumber(5, 10));
-console.log(getRandomNumber(1, 14));
-console.log(getRandomNumber(50, 100));
-console.log(getRandomNumber(-5, 0));
+console.log(getRandomLetter());
+console.log(getRandomLetter());
+console.log(getRandomLetter());
