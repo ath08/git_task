@@ -8,3 +8,5 @@ const getRandomLetter = () => {
 console.log(getRandomLetter());
 console.log(getRandomLetter());
 console.log(getRandomLetter());
+console.log(getRandomLetter());
+console.log(getRandomLetter());
